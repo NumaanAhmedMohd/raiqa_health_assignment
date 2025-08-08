@@ -1,0 +1,96 @@
+
+body {
+  font-family: sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.card, .list-card {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.counter-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.count {
+  font-size: 24px;
+  width: 40px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: white;
+  margin-top: 10px;
+}
+
+.list-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.reset {
+  background-color: #ff4d4f;
+  color: white;
+}
+
+.sort {
+  background-color: #007bff;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.index {
+  color: #999;
+  margin-left: 10px;
+}
+
+.delete {
+  background-color: transparent;
+  color: #ff4d4f;
+  font-weight: bold;
+}
+.total {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+
+
